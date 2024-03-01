@@ -27,7 +27,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'
             >
-              BEN <span>AIDEN</span>
+              MINGYONG <span>WANG</span>
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
@@ -71,8 +71,9 @@ const Banner = () => {
             >
               <button className='btn btn-lg'>Contact me</button>
               <a href='#' className='text-gradient btn-link'>
-                My Portfolio
-              </a>
+  My Portfolio
+</a>
+
             </motion.div>
             {/* socials */}
             <motion.div
@@ -82,15 +83,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href='#'>
-                <FaYoutube />
-              </a>
-              <a href='#'>
+           
+              <a href='https://github.com/Miles-wong/Miles-wong.github.io'>
                 <FaGithub />
               </a>
-              <a href='#'>
-                <FaDribbble />
-              </a>
+          
             </motion.div>
           </div>
           {/* image */}
