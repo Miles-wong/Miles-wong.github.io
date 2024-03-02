@@ -44,7 +44,7 @@ const Banner = () => {
                   2000,
                   'Designer',
                   2000,
-                  'Youtuber',
+                  'job seeker',
                   2000,
                 ]}
                 speed={50}
@@ -60,8 +60,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              numquam. Harum deleniti id sapiente.
+              Solid technical skills, an eagerness to learn and curiosity about everything, and the ability to learn are the reasons why you should choose me.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
